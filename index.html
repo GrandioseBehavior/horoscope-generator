@@ -4,37 +4,52 @@
 	@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=UnifrakturMaguntia&display=swap');
 
 	body {
-    text-align: justify;
 		font-family: 'Julius Sans One', sans-serif;
 		font-size: 20px;
 		color: white;
 		font-weight: none;
-		background-color: #2b0031;
+		background-color: #030012;
 	}
 
 	select {
 		width: 110px;
 		padding: 5px 10px;
-		border: solid #8c35f0;
+		border: solid #b500e2;
 		border-radius: 10px;
 		font-size: 12px;
-    font-weight: bold;
-    font-family: Julius Sans One, sans-serif;
-    background-color: #af6cfc;
-    background-image: url("https://cdn.iconscout.com/icon/premium/png-512-thumb/down-arrow-1754022-1493345.png?f=webp&w=256");
+		font-weight: bolder;
+		font-family: Julius Sans One, sans-serif;
+		background-color: #c695ff;
+		background-image: url("https://cdn.iconscout.com/icon/premium/png-512-thumb/down-arrow-1754022-1493345.png?f=webp&w=256");
 		background-position: right 0px center;
 		background-repeat: no-repeat;
 		background-size: auto 90%;
-	 
-    outline: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  &::-ms-expand { display: none };
-}
-div {
-    cursor:url(https://cdn.iconscout.com/icon/premium/png-512-thumb/cursor-3077638-2622266.png?f=webp&w=256),default;}
 
+		outline: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		appearance: none;
+
+		&::-ms-expand {
+			display: none
+		};
+	}
+
+	input[type=submit] {
+        font-family: Julius Sans One, sans-serif;
+        font-size: 12px;
+        font-weight: bolder;
+		background-color: #c695ff;
+		border: solid #b500e2;
+		color: black;
+		padding: 5px 10px;
+		text-decoration: none;
+		margin: 4px 2px;
+	}
+
+	div {
+		cursor: url(https://cdn.iconscout.com/icon/premium/png-512-thumb/cursor-3077638-2622266.png?f=webp&w=256), default;
+	}
 </style>
 
 
@@ -42,7 +57,8 @@ div {
 
 
 </html>
-
+<center>
+<img src="https://raw.githubusercontent.com/GrandioseBehavior/horoscope-generator/main/chart.png"><br>
 <form>
   <label for="sign">Select your zodiac sign:</label>
 
@@ -65,3 +81,4 @@ div {
 
   <input type="submit" value="Enter">
 </form>
+</center>
