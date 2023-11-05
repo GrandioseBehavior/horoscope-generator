@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=UnifrakturMaguntia&display=swap');
+
+	body {
+    text-align: justify;
+		font-family: 'Julius Sans One', sans-serif;
+		font-size: 20px;
+		color: white;
+		font-weight: none;
+		background-color: #2b0031;
+	}
+
+	select {
+		width: 110px;
+		padding: 5px 10px;
+		border: solid #8c35f0;
+		border-radius: 10px;
+		font-size: 12px;
+    font-weight: bold;
+    font-family: Julius Sans One, sans-serif;
+    background-color: #af6cfc;
+    background-image: url("https://cdn.iconscout.com/icon/premium/png-512-thumb/down-arrow-1754022-1493345.png?f=webp&w=256");
+		background-position: right 0px center;
+		background-repeat: no-repeat;
+		background-size: auto 90%;
+	 
+    outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  &::-ms-expand { display: none };
+}
+div {
+    cursor:url(https://cdn.iconscout.com/icon/premium/png-512-thumb/cursor-3077638-2622266.png?f=webp&w=256),default;}
+
+</style>
+
+
+
+
+
+</html>
+
+<form>
+  <label for="sign">Select your zodiac sign:</label>
+
+  <select id="sign" name="sign">
+    <option value="aries">Aries</option>
+    <option value="taurus">Taurus</option>
+    <option value="gemini">Gemini</option>
+    <option value="capricorn">Capricorn</option>
+    <option value="aquarius">Aquarius</option>
+    <option value="sagittarius">Sagittarius</option>
+    <option value="leo">Leo</option>
+    <option value="scorpio">Scorpio</option>
+    <option value="libra">Libra</option>
+    <option value="cancer">Cancer</option>
+    <option value="gemini">Gemini</option>
+    <option value="virgo">Virgo</option>
+
+    <!-- and so on for the other signs -->
+  </select>
+
+  <input type="submit" value="Enter">
+</form>
